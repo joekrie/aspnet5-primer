@@ -1,0 +1,31 @@
+﻿{
+  "webroot": "wwwroot",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNet.Diagnostics": "1.0.0-beta8-15760",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8-15702",
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta8-15670"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  },
+
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ]
+}
