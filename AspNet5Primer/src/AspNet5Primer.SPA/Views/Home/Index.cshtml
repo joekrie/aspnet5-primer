@@ -1,0 +1,86 @@
+﻿<!doctype html>
+
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <title>Acme Venture Capitalists</title>
+    <link rel="stylesheet" href="~/styles.css">
+</head>
+
+<body>
+    <div ng-controller="Ctrl">
+        <div class="box">
+            <form ng-submit="add()">
+                <div class="pad">
+                    <label>
+                        Title<br />
+                        <input ng-model="newProposal.title" />
+                    </label>
+                </div>
+                <div class="pad">
+                    <label>
+                        Author<br />
+                        <input ng-model="newProposal.author" />
+                    </label>
+                </div>
+                <div class="pad">
+                    <label>
+                        Pitch<br />
+                        <textarea ng-model="newProposal.pitch"></textarea>
+                    </label>
+                </div>
+                <div class="pad">
+                    <label>
+                        Capital Needed<br />
+                        <input ng-model="newProposal.capitalNeeded" />
+                    </label>
+                </div>
+                <div class="pad">
+                    <button type="submit">
+                        Add
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div ng-repeat="proposal in proposals" class="box">
+            <form ng-submit="save(proposal)">
+                <div class="pad">
+                    <label>
+                        Title<br/>
+                        <input ng-model="proposal.title" />
+                    </label>
+                </div>
+                <div class="pad">
+                    <label>
+                        Author<br />
+                        <input ng-model="proposal.author" />
+                    </label>
+                </div>
+                <div class="pad">
+                    <label>
+                        Pitch<br />
+                        <textarea ng-model="proposal.pitch"></textarea>
+                    </label>
+                </div>
+                <div class="pad">
+                    <label>
+                        Capital Needed<br />
+                        <input ng-model="proposal.capitalNeeded" />
+                    </label>
+                </div>
+                <div class="pad">
+                    <button type="submit">
+                        Save
+                    </button>
+                    <button type="button" ng-click="delete(proposal)">
+                        Delete
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="~/angular.js"></script>
+    <script src="~/angular-resource.js"></script>
+    <script src="~/app.js"></script>
+</body>
+</html>

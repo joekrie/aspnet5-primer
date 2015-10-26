@@ -1,4 +1,4 @@
-﻿{
+{
   "webroot": "wwwroot",
   "version": "1.0.0-*",
 
@@ -13,7 +13,8 @@
     "Microsoft.Composition": "1.0.30",
     "Microsoft.Framework.Configuration.Json": "1.0.0-beta8-15638",
     "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta8-15621",
-    "Microsoft.Framework.DependencyInjection": "1.0.0-beta8-15623"
+    "Microsoft.Framework.DependencyInjection": "1.0.0-beta8-15623",
+    "RavenDB.Database": "3.0.3800"
   },
 
   "commands": {
@@ -32,6 +33,7 @@
     "**.vspscc"
   ],
   "exclude": [
+    "db",
     "wwwroot",
     "node_modules",
     "bower_components"

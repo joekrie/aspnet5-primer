@@ -1455,6 +1455,37 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "RavenDB.Client/3.0.3800": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Client.Lightweight.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Client.Lightweight.dll": {}
+        }
+      },
+      "RavenDB.Database/3.0.3800": {
+        "type": "package",
+        "dependencies": {
+          "RavenDB.Client": "[3.0.3800]"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Database.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Database.dll": {}
+        }
+      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -3098,6 +3129,37 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RavenDB.Client/3.0.3800": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Client.Lightweight.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Client.Lightweight.dll": {}
+        }
+      },
+      "RavenDB.Database/3.0.3800": {
+        "type": "package",
+        "dependencies": {
+          "RavenDB.Client": "[3.0.3800]"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Database.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Database.dll": {}
         }
       },
       "System.Collections/4.0.0": {
@@ -4745,6 +4807,37 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "RavenDB.Client/3.0.3800": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Client.Lightweight.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Client.Lightweight.dll": {}
+        }
+      },
+      "RavenDB.Database/3.0.3800": {
+        "type": "package",
+        "dependencies": {
+          "RavenDB.Client": "[3.0.3800]"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Database.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Raven.Abstractions.dll": {},
+          "lib/net45/Raven.Database.dll": {}
+        }
+      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -6122,6 +6215,38 @@
         "tools/install.ps1"
       ]
     },
+    "RavenDB.Client/3.0.3800": {
+      "type": "package",
+      "sha512": "AcQxQpTU37RGOW26xZTuB2thYbdEk7iv/JkcbIfQX6Uv9SmxWctqTNabQUKPEZEtfz4ub6alqLopgI4rBs4Uxg==",
+      "files": [
+        "lib/net45/Raven.Abstractions.dll",
+        "lib/net45/Raven.Abstractions.pdb",
+        "lib/net45/Raven.Abstractions.xml",
+        "lib/net45/Raven.Client.Lightweight.dll",
+        "lib/net45/Raven.Client.Lightweight.pdb",
+        "lib/net45/Raven.Client.Lightweight.XML",
+        "RavenDB.Client.3.0.3800.nupkg",
+        "RavenDB.Client.3.0.3800.nupkg.sha512",
+        "RavenDB.Client.nuspec"
+      ]
+    },
+    "RavenDB.Database/3.0.3800": {
+      "type": "package",
+      "sha512": "E+aCtpGIMVe2/sJDurIiGjivJCkRTdOirq/AYGB89+bW/dnElh3bY7l7IbD+/HphdKxFvX9C1Mrw3ACPvmgQVA==",
+      "files": [
+        "content/Raven.Studio.Html5.zip",
+        "lib/net45/Raven.Abstractions.dll",
+        "lib/net45/Raven.Abstractions.pdb",
+        "lib/net45/Raven.Abstractions.xml",
+        "lib/net45/Raven.Database.dll",
+        "lib/net45/Raven.Database.pdb",
+        "RavenDB.Database.3.0.3800.nupkg",
+        "RavenDB.Database.3.0.3800.nupkg.sha512",
+        "RavenDB.Database.nuspec",
+        "readme.txt",
+        "tools/install.ps1"
+      ]
+    },
     "System.Collections/4.0.0": {
       "type": "package",
       "sha512": "i2vsGDIEbWdHcUSNDPKZP/ZWod6o740el7mGTCy0dqbCxQh74W4QoC+klUwPEtGEFuvzJ7bJgvwJqscosVNyZQ==",
@@ -6827,7 +6952,8 @@
       "Microsoft.Composition >= 1.0.30",
       "Microsoft.Framework.Configuration.Json >= 1.0.0-beta8-15638",
       "Microsoft.Framework.Configuration.UserSecrets >= 1.0.0-beta8-15621",
-      "Microsoft.Framework.DependencyInjection >= 1.0.0-beta8-15623"
+      "Microsoft.Framework.DependencyInjection >= 1.0.0-beta8-15623",
+      "RavenDB.Database >= 3.0.3800"
     ],
     "DNX,Version=v4.5.1": []
   }

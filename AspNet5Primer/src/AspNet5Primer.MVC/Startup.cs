@@ -6,7 +6,7 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
 using Microsoft.Framework.DependencyInjection;
 
-namespace AspNet5Primer.WebApp
+namespace AspNet5Primer.MVC
 {
     public class Startup
     {

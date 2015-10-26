@@ -1,0 +1,26 @@
+{
+  "IndexId": 1,
+  "Name": "Auto/BusinessProposals",
+  "LockMode": "Unlock",
+  "Map": "from doc in docs.BusinessProposals\nselect new {\r\n\n}",
+  "Maps": [
+    "from doc in docs.BusinessProposals\nselect new {\r\n\n}"
+  ],
+  "Reduce": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "Stores": {},
+  "Indexes": {},
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Suggestions": {},
+  "TermVectors": {},
+  "SpatialIndexes": {},
+  "InternalFieldsMapping": {},
+  "MaxIndexOutputsPerDocument": null,
+  "Type": "Auto",
+  "DisableInMemoryIndexing": false,
+  "IsTestIndex": false,
+  "IsSideBySideIndex": false
+}
