@@ -14,7 +14,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5Primer.Echo", "src\A
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5Primer.MVC", "src\AspNet5Primer.MVC\AspNet5Primer.MVC.xproj", "{5AEB1841-F598-495B-9A50-DB3B3453E86B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5Primer.API", "src\AspNet5Primer.SPA\AspNet5Primer.API.xproj", "{1D2E1EA7-0A0A-4E1C-91F9-CDA80E25C99B}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet5Primer.API", "src\AspNet5Primer.API\AspNet5Primer.API.xproj", "{1D2E1EA7-0A0A-4E1C-91F9-CDA80E25C99B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
